@@ -1,10 +1,13 @@
 import axios from 'axios';
 
+// const api = axios.create({
+//   baseURL: import.meta.env.VITE_API_URL1 || "http://localhost:7000/api",
+//   timeout: 15000,
+// });
 const api = axios.create({
-  baseURL: import.meta.env.VITE_API_URL1 || "http://localhost:7000/api",
+  baseURL: "https://contactmanagementhub.onrender.com/api",
   timeout: 15000,
 });
-
 // Attach JWT token to every request
 api.interceptors.request.use((config) => {
   const token = localStorage.getItem('cms_token');
