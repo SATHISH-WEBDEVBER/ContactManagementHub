@@ -13,7 +13,7 @@ const navItems = [
   { icon: Users, label: 'All Contacts', path: '/contacts' },
   { icon: Star, label: 'Favorites', path: '/contacts?isFavorite=true' },
   { icon: Tag, label: 'Categories', path: '/contacts?view=categories' },
-  { icon: Settings, label: 'Settings', path: '/settings' },
+  // { icon: Settings, label: 'Settings', path: '/settings' },
 ];
 
 export default function Sidebar() {

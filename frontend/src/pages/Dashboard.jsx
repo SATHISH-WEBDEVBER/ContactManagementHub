@@ -68,7 +68,7 @@ export default function Dashboard() {
               <div>
                 <h1 className="font-display font-bold text-3xl text-text-primary">
                   Good {getGreeting()},{' '}
-                  <span className="text-cyan-400">{user?.name?.split(' ')[0]}</span> 👋
+                  <span className="text-cyan-400">{user?.name?.split(' ')[0]}</span>
                 </h1>
                 <p className="text-text-secondary mt-1">Here's an overview of your contacts</p>
               </div>
