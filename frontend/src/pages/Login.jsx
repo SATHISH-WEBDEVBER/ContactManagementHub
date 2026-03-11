@@ -56,7 +56,7 @@ export default function Login() {
             <Zap className="w-5 h-5 text-white" />
           </div>
           <span className="font-display font-bold text-2xl text-text-primary tracking-tight">
-            Nexus <span className="text-cyan-400">CMS</span>
+            NexLin<span className="text-cyan-400 text-3xl">K2I</span>
           </span>
         </motion.div>
 
@@ -151,7 +151,7 @@ export default function Login() {
 
         {/* Grid bg hint */}
         <p className="text-center text-text-muted text-xs font-mono mt-6">
-          © 2025 Nexus CMS · All rights reserved
+          © 2026 NexLinK2I · All rights reserved
         </p>
       </motion.div>
     </div>

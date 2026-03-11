@@ -38,7 +38,7 @@ export default function Sidebar() {
           <Zap className="w-4 h-4 text-white" />
         </div>
         <div>
-          <span className="font-display font-bold text-lg text-text-primary leading-tight block">Nexus CMS</span>
+          <span className="font-display font-bold text-lg text-text-primary leading-tight block">NexLinK2I</span>
           <span className="text-xs text-text-muted font-mono">v2.0</span>
         </div>
       </div>

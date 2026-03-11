@@ -72,7 +72,7 @@ export default function Signup() {
             <Zap className="w-5 h-5 text-white" />
           </div>
           <span className="font-display font-bold text-2xl text-text-primary tracking-tight">
-            Nexus <span className="text-cyan-400">CMS</span>
+            NexLin<span className="text-cyan-400 text-3xl">K2I</span>
           </span>
         </motion.div>
 
