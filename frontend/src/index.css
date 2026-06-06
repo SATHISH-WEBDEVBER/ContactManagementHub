@@ -211,3 +211,71 @@
     transform: rotate(360deg);
   }
 }
+
+/* Footer styles */
+
+/* Container for the footer */
+.dashboard-footer {
+  width: 100%;
+  padding: 14px 0;
+  margin-top: auto; 
+  border-top: 1px solid rgba(255, 255, 255, 0.05); 
+  color: #9CA3AF; /* Muted gray text */
+  font-family: inherit;
+}
+
+/* Flexbox layout for alignment */
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 32px; 
+}
+
+.copyright, .development-credit {
+  font-size: 0.875rem; /* 14px */
+  margin: 0;
+  letter-spacing: 0.025em;
+}
+
+/* Unique and neat hover effect for the team name */
+.team-link {
+  color: #06B6D4; /* Cyan accent */
+  text-decoration: none;
+  font-weight: 500;
+  position: relative;
+  transition: all 0.3s ease;
+  padding-bottom: 2px;
+}
+
+/* Animated underline starting from width 0 */
+.team-link::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #06B6D4;
+  transition: width 0.3s ease-in-out;
+  box-shadow: 0 0 8px rgba(6, 182, 212, 0.6); /* Subtle cyan glow */
+}
+
+/* Expand the underline on hover */
+.team-link:hover::after {
+  width: 100%;
+}
+
+/* Text glow on hover */
+.team-link:hover {
+  text-shadow: 0 0 8px rgba(6, 182, 212, 0.4);
+}
+
+/* Responsive adjustment for smaller screens */
+@media (max-width: 768px) {
+  .footer-content {
+    flex-direction: column;
+    gap: 12px;
+    text-align: center;
+  }
+}

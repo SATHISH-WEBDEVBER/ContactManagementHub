@@ -8,9 +8,11 @@ import ContactDetail from './pages/ContactDetail';
 import ContactEdit from './pages/ContactEdit';
 import AdminLogin from './pages/AdminLogin';
 import AdminDashboard from './pages/AdminDashboard';
+import Footer from './pages/Footer';
 
 export default function App() {
   return (
+    <>
     <Routes>
       {/* Default redirect */}
       <Route path="/" element={<Navigate to="/login" replace />} />
@@ -40,6 +42,9 @@ export default function App() {
 
       {/* 404 */}
       <Route path="*" element={<Navigate to="/login" replace />} />
+      
     </Routes>
+    <Footer />
+    </>
   );
 }

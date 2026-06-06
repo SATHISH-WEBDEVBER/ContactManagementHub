@@ -150,9 +150,9 @@ export default function Login() {
         </div>
 
         {/* Grid bg hint */}
-        <p className="text-center text-text-muted text-xs font-mono mt-6">
+        {/* <p className="text-center text-text-muted text-xs font-mono mt-6">
           © 2026 NexLinK2I · All rights reserved
-        </p>
+        </p> */}
       </motion.div>
     </div>
   );
